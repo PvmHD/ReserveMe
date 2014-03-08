@@ -66,6 +66,6 @@
     <scm>
   	    <connection>scm:git:git://github.com/Bukkit/CraftBukkit.git</connection>
   	    <developerConnection>scm:git:ssh://git@github.com/Bukkit/CraftBukkit.git</developerConnection>
-      	<url>https://github.com/breedev/ReserveMe</url>
+         <url>https://github.com/breedev/ReserveMe</url>
     </scm>
 </project>

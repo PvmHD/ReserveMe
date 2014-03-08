@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <modelVersion>4.0.0</modelVersion>
+  
+    <groupId>com.breezeyboy</groupId>
+    <artifactId>ReserveMe</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+  
+    <name>ReserveMe</name>
+    <url>http://dev.bukkit.org/bukkit-plugins/reserveme/</url>
+    <description>ReserveMe is a simple plugin allowing you to run a simple command and it will save your slot so you can for example have dinner without worrying someone will login and fill the server slots. Its helpful for servers who are limited on player slots but want something to reserve slot for their donators.</description>
+  
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+  
+    <build>
+        <defaultGoal>clean install</defaultGoal>
+        <finalName>MavenTemplate</finalName>
+        <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+        <resources>
+            <resource>
+                <targetPath>.</targetPath>
+                <filtering>true</filtering>
+                <directory>${basedir}/src/main/resources/</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.bukkit</groupId>
+            <artifactId>craftbukkit</artifactId>
+            <version>LATEST</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>bukkit-repo</id>
+            <url>http://repo.bukkit.org/content/groups/public/</url>
+        </repository>
+    </repositories>
+    
+    <organization>
+  	    <name>Breedev</name>
+  	    <url>https://github.com/breedev/</url>
+    </organization>
+  
+    <issueManagement>
+  	    <system>Bukkit Tickets</system>
+  	    <url>http://dev.bukkit.org/bukkit-plugins/reserveme/tickets/</url>
+    </issueManagement>
+  
+    <scm>
+  	    <connection>scm:git:git://github.com/Bukkit/CraftBukkit.git</connection>
+  	    <developerConnection>scm:git:ssh://git@github.com/Bukkit/CraftBukkit.git</developerConnection>
+      	<url>https://github.com/breedev/ReserveMe</url>
+    </scm>
+</project>

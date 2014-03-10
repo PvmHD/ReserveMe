@@ -1,0 +1,6 @@
+name: ReserveMe
+version: 1.0
+author: breezeyboy
+main: com.breezeyboy.reserveme.ReserveMe
+commands:
+  reserveme:

@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
   
     <name>ReserveMe</name>
-    <url>http://dev.bukkit.org/bukkit-plugins/reserveme/</url>
+    <url>http://dev.bukkit.org/b/ReserveMe/</url>
     <description>ReserveMe is a simple plugin allowing you to run a simple command and it will save your slot so you can for example have dinner without worrying someone will login and fill the server slots. Its helpful for servers who are limited on player slots but want something to reserve slot for their donators.</description>
   
     <properties>
@@ -16,7 +16,7 @@
   
     <build>
         <defaultGoal>clean install</defaultGoal>
-        <finalName>MavenTemplate</finalName>
+        <finalName>ReserveMe</finalName>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
         <resources>
             <resource>
@@ -60,12 +60,18 @@
   
     <issueManagement>
   	    <system>Bukkit Tickets</system>
-  	    <url>http://dev.bukkit.org/bukkit-plugins/reserveme/tickets/</url>
+  	    <url>http://dev.bukkit.org/b/ReserveMe/tickets/</url>
     </issueManagement>
   
     <scm>
+<<<<<<< HEAD
   	    <connection>scm:git:git://github.com/Bukkit/CraftBukkit.git</connection>
   	    <developerConnection>scm:git:ssh://git@github.com/Bukkit/CraftBukkit.git</developerConnection>
          <url>https://github.com/breedev/ReserveMe</url>
+=======
+  	    <connection>scm:git:git://github.com/breedev/ReserveMe.git</connection>
+  	    <developerConnection>scm:git:ssh://git@github.com/breedev/ReserveMe.git</developerConnection>
+      	<url>https://github.com/breedev/ReserveMe</url>
+>>>>>>> Added Code :D
     </scm>
 </project>
